@@ -189,13 +189,13 @@ li a:hover {
     animation: rocket-movement 200s linear infinite both running;
 }
 
-.object_earth{
+/* .object_earth{
     position: absolute;
     top: 20%;
     left: 15%;
     z-index: 90;
 /*    animation: spin-earth 100s infinite linear both;*/
-}
+} */
 
 .object_moon{
     position: absolute;
@@ -230,12 +230,12 @@ li a:hover {
     pointer-events: none;
 }
 
-/* .stars{
+.stars{
     background: url(http://salehriaz.com/404Page/img/overlay_stars.svg);
     background-repeat: repeat;
     background-size: contain;
     background-position: left top;
-} */
+}
 
 .glowing_stars .star{
     position: absolute;
